@@ -19,7 +19,7 @@ const frases = [
   "Contigo, cada día es mejor que el anterior 🌞💫",
   "Se que un mes no es mucho, pero contigo es todo un mundo 🌍💓",
   "Eres mi mejor aventura, hoy y siempre 🌟💑",
-  "Seiempre seras mi linda compañera de juegos 🎮💻",
+  "Siempre seras mi linda compañera de juegos 🎮💻",
   "💓TE AMO💓"
 ];
 
@@ -185,3 +185,4 @@ document.addEventListener("touchstart", (e) => {
   crearCorazonClick(touch.clientX, touch.clientY);
 }, {passive: true});
 setInterval(crearCorazon, 600);
+
